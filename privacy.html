@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calfit 개인정보 처리방침</title>
+  <meta name="description" content="Calfit 개인정보 처리방침 — 수집 항목, 이용 목적, 보관, 이용자 권리." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+  <style>
+    :root {
+      --void:#0A0A0F; --panel:#13131C; --border:#262633;
+      --text:#E8E8F0; --dim:#7C7C92; --indigo:#6366F1; --starlight:#A5B4FC;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family:"Pretendard Variable",-apple-system,system-ui,sans-serif;
+      background:radial-gradient(ellipse at top,#1A1A2E 0%,var(--void) 55%);
+      color:var(--text); min-height:100vh; line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap { max-width:720px; margin:0 auto; padding:64px 24px 90px; }
+    h1 { font-size:34px; font-weight:800; letter-spacing:-0.02em; }
+    .meta { color:var(--dim); font-size:13.5px; margin:10px 0 36px; }
+    h2 { font-size:19px; font-weight:700; margin:34px 0 12px; }
+    p, li { font-size:15px; color:#D2D2DE; }
+    ul { padding-left:20px; margin:8px 0; }
+    li { margin:6px 0; }
+    a { color:var(--starlight); text-decoration:none; font-weight:600; }
+    a:hover { text-decoration:underline; }
+    .box { background:var(--panel); border:1px solid var(--border);
+      border-radius:14px; padding:18px 22px; margin:14px 0; }
+    table { width:100%; border-collapse:collapse; margin:10px 0; font-size:14.5px; }
+    th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
+    th { color:var(--dim); font-weight:600; width:34%; }
+    footer { color:var(--dim); font-size:13px; margin-top:48px; border-top:1px solid var(--border); padding-top:20px; }
+    .top { color:var(--dim); font-size:14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="top"><a href="./">← Calfit 고객지원</a></p>
+    <h1 style="margin-top:18px">개인정보 처리방침</h1>
+    <p class="meta">서비스명: Calfit · 운영: Hatysa AI Studio · 시행일: 2026년 6월 30일</p>
+
+    <p>Hatysa AI Studio(이하 “운영자”)는 운동 기록 앱 <strong>Calfit</strong>(이하 “서비스”)을 제공하면서 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 서비스가 어떤 정보를 어떻게 수집·이용·보관하는지 설명합니다.</p>
+
+    <h2>1. 수집하는 개인정보 항목</h2>
+    <table>
+      <tr><th>구분</th><td>항목</td></tr>
+      <tr><th>계정 정보</th><td>소셜 로그인 시 제공되는 이메일 주소 및 계정 식별자(Google / Kakao 등 로그인 제공자가 전달하는 고유 ID)</td></tr>
+      <tr><th>서비스 이용 데이터</th><td>이용자가 직접 입력한 운동 기록(날짜, 운동 종류, 운동 이름, 메모, 완료 여부, 시간), 이벤트, 운동 종류 설정, 월간 목표 설정</td></tr>
+      <tr><th>자동 생성 정보</th><td>요약 통계(연속 스트릭, 이번 달 완료 수, 마지막 운동일) — 위 입력 데이터로부터 계산됨</td></tr>
+    </table>
+    <p class="box">운영자는 비밀번호, 결제정보, 위치정보, 연락처, 사진을 수집하지 않습니다. 소셜 로그인 시 비밀번호는 각 로그인 제공자가 관리하며 서비스에 전달되지 않습니다.</p>
+
+    <h2>2. 게스트(비로그인) 이용</h2>
+    <p>로그인 없이 “게스트 모드”로 이용하는 경우, 운동 기록은 <strong>이용자의 기기 내부 저장소에만</strong> 보관되며 운영자 서버로 전송되지 않습니다. 앱 삭제 시 해당 데이터는 사라질 수 있습니다.</p>
+
+    <h2>3. 개인정보의 이용 목적</h2>
+    <ul>
+      <li>운동 기록의 저장 및 기기 간 동기화 제공</li>
+      <li>통계·연속 스트릭·목표 진행률 계산 및 표시</li>
+      <li>홈/잠금화면 위젯 및 로컬 알림 등 부가 기능 제공</li>
+      <li>문의 응대 및 서비스 운영·개선</li>
+    </ul>
+
+    <h2>4. 보관 위치 및 처리 위탁</h2>
+    <p>로그인 이용자의 데이터는 클라우드 인프라 제공업체 <strong>Supabase</strong>의 데이터베이스에 안전하게 저장되며, 행 수준 보안(RLS)으로 본인만 접근할 수 있도록 격리됩니다.</p>
+    <table>
+      <tr><th>수탁 업체</th><td>위탁 업무</td></tr>
+      <tr><th>Supabase, Inc.</th><td>데이터베이스·인증 인프라 호스팅</td></tr>
+      <tr><th>Google / Kakao</th><td>소셜 로그인(인증) 처리</td></tr>
+    </table>
+
+    <h2>5. 보유 기간 및 파기</h2>
+    <p>개인정보는 이용 목적 달성 또는 회원 탈퇴/삭제 요청 시까지 보유하며, 그 후 지체 없이 파기합니다. 계정 삭제 시 관련 데이터(운동 기록 등)는 연동 삭제(cascade)됩니다.</p>
+
+    <h2>6. 이용자의 권리</h2>
+    <p>이용자는 언제든지 본인의 개인정보에 대해 열람·정정·삭제·처리정지를 요청할 수 있습니다. 앱 내에서 직접 기록을 수정·삭제할 수 있으며, 계정·전체 데이터 삭제는 아래 연락처로 요청해 주시면 처리해 드립니다.</p>
+
+    <h2>7. 데이터·계정 삭제 요청</h2>
+    <p>계정 및 모든 관련 데이터의 삭제를 원하시면 <a href="mailto:kizzuc25@gmail.com?subject=%5BCalfit%5D%20데이터%20삭제%20요청">kizzuc25@gmail.com</a> 으로 가입한 이메일과 함께 요청해 주세요. 확인 후 처리합니다.</p>
+
+    <h2>8. 아동의 개인정보</h2>
+    <p>서비스는 만 14세 미만 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.</p>
+
+    <h2>9. 개인정보 보호책임자 및 문의</h2>
+    <ul>
+      <li>운영자: Hatysa AI Studio</li>
+      <li>이메일: <a href="mailto:kizzuc25@gmail.com">kizzuc25@gmail.com</a></li>
+    </ul>
+
+    <h2>10. 방침 변경</h2>
+    <p>본 방침은 법령·서비스 변경에 따라 개정될 수 있으며, 변경 시 본 페이지를 통해 공지합니다.</p>
+
+    <footer>© 2026 Hatysa AI Studio · Calfit · 시행일 2026년 6월 30일</footer>
+  </div>
+</body>
+</html>
